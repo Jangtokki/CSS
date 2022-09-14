@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* nth-child(n) - 모든 자식요소들 중에 n번째로 사용된 p를 뜻함
+       와 nth-of-type(n) - p가 속한 요소들 중 n번째로 사용된 p */
+
+      /* p:nth-of-type(even) {
+        background-color: green;
+      } */
+
+      p:nth-of-type(2n) {
+        background-color: aqua;
+      }
+
+      p:nth-of-type(odd) {
+        background-color: firebrick;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>computer</p>
+      <span>test</span>
+      <p>moniter</p>
+      <p>television</p>
+      <p>desk</p>
+      <p>top</p>
+    </div>
+  </body>
+</html>
