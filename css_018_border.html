@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dv1 {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border-width: 10px;
+        border-style: solid;
+        border-color: black;
+      }
+
+      .dv2 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border-bottom-width: 20px;
+        border-bottom-style: dotted;
+        border-bottom-color: aqua;
+      }
+
+      .dv3 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /* 시계방향으로 설정 : top right bottom left */
+        border-width: 5px 10px 15px 20px;
+        /* 3개 값만 입력할 경우 : top right/left bottom */
+        border-style: solid dotted dashed;
+        /* top/bottom right/left */
+        border-color: black brown;
+      }
+
+      /* border-style: none|hidden|dotted|dashed|solid|double
+                    |groove|ridge|inset|outset|initial|inherit; */
+
+      /* border-width 
+                     border-style (required) 
+                     border-color */
+      .dv4 {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        border: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="dv1"></div>
+      <div class="dv2"></div>
+      <div class="dv3"></div>
+      <div class="dv4"></div>
+    </div>
+  </body>
+</html>
