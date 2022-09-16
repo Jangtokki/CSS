@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+body {
+  font-family: "맑은고딕", "돋움";
+  font-size: 12px;
+  color: #444444;
+  background-color: #f2f0f0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.clrear {
+  clear: both;
+}
+
+/* ----------헤더---------*/
+
+header {
+  height: 128px;
+  background-color: yellow;
+}
+
+header #top {
+  width: 990px;
+  margin: 0 auto;
+  /* border: solid 1px #444444; */
+}
+
+header #logo {
+  float: left;
+  margin: 30px 0 0 0;
+  /* border: solid 1px #444444; */
+}
+
+header #search {
+  float: left;
+  font-family: "Sans-serif";
+  font-size: 12px;
+  color: #96c11f;
+  margin: 40px 0 0 150px;
+  /* border: solid 1px #444444 */
+}
+
+header #search #search_title {
+  float: left;
+  margin-top: 6px;
+}
+
+header #search #search_form {
+  float: left;
+}
+
+header #search #search_form input {
+  width: 80px;
+  height: 16px;
+  border: 0;
+  background-color: #f2f0f0;
+  border-bottom: solid 1px #cccccc;
+  margin-left: 5px;
+}
+header #search #search_bottom {
+  float: left;
+  margin: 3px 0 0 3px;
+}
+
+/* 상단 메뉴 */
+
+header #top_menu {
+  float: right;
+  margin-top: 45px;
+  /* border: 1px solid #444444; */
+}
+
+header #top_menu a {
+  font-size: 11px;
+  color: #888888;
+}
+
+header #top_menu li {
+  display: inline;
+  margin-left: 10px;
+}
+
+/* 메인 메뉴 */
+
+header #main_menu {
+  height: 38px;
+  margin-top: 15px;
+  background-color: #4e4c4d;
+  /* border: 1px solid #444444; */
+}
+
+header #main_menu ul {
+  width: 990px;
+  margin: auto;
+  border: solid 1px #ff0000;
+  padding-top: 12px;
+  text-align: center;
+}
+
+header #main_menu li {
+  display: inline;
+  margin: 0 75px;
+}
+
+header #main_menu a {
+  color: #ffffff;
+}
+
+header #main_menu a:hover {
+  color: #ff0000;
+}
+
+/*----footer------*/
+
+footer {
+  height: 200px;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+footer #footer_menu_box {
+  width: 990px;
+  margin: auto;
+}
+
+footer #footer_menu {
+  width: 990px;
+}
+
+footer #fooer_menu li {
+  display: inline;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border-width: 0;
+      }
+      .item {
+        border: 1px solid black;
+
+        overflow: hidden;
+      }
+      ul {
+        list-style-type: none;
+      }
+      .description > strong {
+        display: block;
+
+        color: azure;
+
+        width: 250px;
+        height: 40px;
+        margin-left: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+
+        margin-top: 10px;
+      }
+
+      .item {
+        width: 200px;
+        background-color: black;
+        color: aliceblue;
+
+        float: left;
+        text-decoration: none;
+      }
+
+      header {
+        width: 1008px;
+        height: 100px;
+
+        float: left;
+        position: relative;
+      }
+      header > ul > li {
+        float: left;
+        list-style-type: none;
+      }
+      header > img {
+        width: 300px;
+      }
+
+      .one {
+        width: 300px;
+        height: 100px;
+        background-color: rgb(245, 240, 234);
+      }
+      .two {
+        width: 320px;
+        height: 100px;
+        background-color: rgb(245, 240, 234);
+
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .three {
+        width: 380px;
+        height: 100px;
+        background-color: rgb(245, 240, 234);
+        text-align: center;
+      }
+
+      img {
+        width: 250px;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+      .na {
+        width: 70px;
+        color: black;
+        float: left;
+        list-style-type: none;
+
+        text-align: center;
+        text-decoration: none;
+
+        font-size: 11px;
+
+        margin-top: 50px;
+
+        display: block;
+        font-family: "굴림체";
+      }
+      h5 {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li class="one">
+          <img src="images/img/logo.gif" />
+        </li>
+        <li class="two">
+          <h5>SERCH<input type="text" /></h5>
+        </li>
+        <li class="three">
+          <a href="#"><div class="na">회원가입</div></a>
+
+          <a href="#"><div class="na">마이페이지</div></a>
+
+          <a href="#"><div class="na">주문배송</div></a>
+
+          <a href="#"><div class="na">고객센터</div></a>
+          <a href="#"><div class="na">고객센터</div></a>
+        </li>
+      </ul>
+    </header>
+    <div class="tab_item">
+      <ul>
+        <li class="item">
+          <a href="#">
+            <div class="description">
+              <strong>상세 페이지</strong>
+            </div></a
+          >
+        </li>
+        <li class="item">
+          <a href="#">
+            <div class="description">
+              <strong>장바구니</strong>
+            </div></a
+          >
+        </li>
+        <li class="item">
+          <a href="#">
+            <div class="description">
+              <strong>고객 갤러리</strong>
+            </div></a
+          >
+        </li>
+        <li class="item">
+          <a href="#">
+            <div class="description">
+              <strong>주문배송</strong>
+            </div></a
+          >
+        </li>
+        <li class="item">
+          <a href="#">
+            <div class="description">
+              <strong>자주하는 질문</strong>
+            </div></a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
